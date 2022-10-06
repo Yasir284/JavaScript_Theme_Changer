@@ -7,20 +7,37 @@
     <title>Theme Changer</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="script.js" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
+
   <body>
-    <div class="themeChanger"><p>Change Theme</p></div>
+    <button class="themeChanger" onclick="change()">
+      <!-- <span class="material-symbols-outlined"> dark_mode </span> -->
+      <span class="material-symbols-outlined"> light_mode </span>
+      <p>Light mode</p>
+    </button>
+
     <div class="content">
-      <h1>Hello, I am Yasir</h1>
-      <p class="p1">
+      <h1>Hello World !, I am Yasir 👋</h1>
+      <p>
         I am learning Web-Development and made this website to practice
         JavaScript
       </p>
-      <p class="p2">
+      <h2>
         This website has a theme changer button on top right, which changes the
         theme of the website.
-      </p>
+      </h2>
     </div>
     <!-- JS -->
     <script src="script.js"></script>
