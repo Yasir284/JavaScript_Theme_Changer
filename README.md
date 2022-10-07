@@ -22,9 +22,11 @@
 
 ---
 
-## 🎥 Working
+## 🎥 ScreenShots
 
-![gif](./palindrome%20checker.gif)
+![light Theme](Theme%20Changer%20-%20light.png)
+
+![Dark Theme](Theme%20Changer%20-%20Dark.png)
 
 ---
 
